@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/favourite"
+        android:icon="@drawable/heart_svgrepo_com"
+        android:title="Favourite" />
+
+    <item
+        android:id="@+id/rateUs"
+        android:icon="@drawable/ic_star"
+        android:title="Rate us" />
+
+
+    <item
+        android:id="@+id/shareApp"
+        android:icon="@drawable/ic_share"
+        android:title="Share app" />
+
+    <item
+        android:id="@+id/termsCondition"
+        android:icon="@drawable/ic_contract"
+        android:title="Terms Conditions" />
+
+    <item
+        android:id="@+id/privatePolicy"
+        android:icon="@drawable/ic_file"
+        android:title="Private policy" />
+
+    <item
+        android:id="@+id/developer"
+        android:icon="@drawable/ic_terminal"
+        android:title="Developer" />
+
+</menu>

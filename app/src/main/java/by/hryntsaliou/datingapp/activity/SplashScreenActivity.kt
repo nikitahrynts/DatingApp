@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import by.hryntsaliou.datingapp.MainActivity
 import by.hryntsaliou.datingapp.R
 import by.hryntsaliou.datingapp.auth.LoginActivity
 import by.hryntsaliou.datingapp.auth.RegisterActivity
@@ -21,7 +22,7 @@ class SplashScreenActivity : AppCompatActivity() {
             if (user == null)
                 startActivity(Intent(this, LoginActivity::class.java))
             else
-                startActivity(Intent(this, RegisterActivity::class.java))
+                startActivity(Intent(this, MainActivity::class.java))
             finish()
         }, 2000)
     }
