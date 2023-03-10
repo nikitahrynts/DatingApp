@@ -60,7 +60,7 @@ class LoginActivity : AppCompatActivity() {
 
 //        binding.sendOtp.showLoadingButton()
 
-        dialog.show()
+        //dialog.show()
         val credential = PhoneAuthProvider.getCredential(verificationId!!, otp)
 
         signInWithPhoneAuthCredential(credential)
@@ -83,7 +83,8 @@ class LoginActivity : AppCompatActivity() {
             }
 
             override fun onCodeSent(
-                verificationId: String, token: PhoneAuthProvider.ForceResendingToken
+                verificationId: String,
+                token: PhoneAuthProvider.ForceResendingToken
             ) {
                 this@LoginActivity.verificationId = verificationId
 
@@ -105,7 +106,8 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun signInWithPhoneAuthCredential(credential: PhoneAuthCredential) {
-        auth.signInWithCredential(credential).addOnCompleteListener(this) { task ->
+        auth.signInWithCredential(credential)
+            .addOnCompleteListener(this) { task ->
 //            binding.sendOtp.showNormalButton()
             if (task.isSuccessful) {
                 checkUserExist(binding.userNumber.text.toString())

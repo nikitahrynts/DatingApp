@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "665278587938",
+    "firebase_url": "https://datingapp-7f011-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "datingapp-7f011",
     "storage_bucket": "datingapp-7f011.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "665278587938-77g8q7q4im37g5tfa5b5fh0mcik5h29l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "by.hryntsaliou.datingapp",
+            "certificate_hash": "86ba700bd2f2c129615c10f898f1cc640c7d198c"
+          }
+        },
         {
           "client_id": "665278587938-dnm7u98mjgm1pa4ugifts3bicos6q2n5.apps.googleusercontent.com",
           "client_type": 3
