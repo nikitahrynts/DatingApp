@@ -28,17 +28,4 @@ class DatingFragment : Fragment() {
 
         return binding.root
     }
-
-    private fun getData() {
-        FirebaseDatabase.getInstance().getReference("users")
-            .addValueEventListener(object : ValueEventListener {
-                override fun onDataChange(snapshot: DataSnapshot) {
-                    Log.d("Nikita", "onDataChange: ${snapshot.toString()}")
-                }
-
-                override fun onCancelled(error: DatabaseError) {
-                    Toast.makeText(requireContext(), error.message, Toast.LENGTH_SHORT).show()
-                }
-            })
-    }
 }
