@@ -12,21 +12,25 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e5dcaab-a701-4ce9-92d2-9bfec4ac7d5b" name="Changes" comment="Added ignored files">
+    <list default="true" id="6e5dcaab-a701-4ce9-92d2-9bfec4ac7d5b" name="Changes" comment="Card slides finished">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/activity/EditProfileActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/profile_svgrepo_com.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/activity/SplashScreenActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/activity/SplashScreenActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/adapter/DatingAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/adapter/DatingAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/auth/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/auth/LoginActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/ui/DatingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/ui/DatingFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/ui/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/by/hryntsaliou/datingapp/ui/ProfileFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dating.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_user_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_user_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +105,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nikita\Desktop\DatingApp\app\src\main\res\drawable" />
       <recent name="C:\Users\Nikita\Desktop\DatingApp\app" />
+    </key>
+    <key name="android.template.1594027438">
+      <recent name="by.hryntsaliou.datingapp.activity" />
     </key>
   </component>
   <component name="RunManager">
@@ -201,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678449821918</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Card slides finished">
+      <created>1678452436318</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678452436318</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +233,7 @@
     <MESSAGE value="Added UserModel, some fragments and modified layout file, in addition to that some work on code clean up has been done" />
     <MESSAGE value="Started to work on Card Stack(swipes) and some modifications in layouts and values" />
     <MESSAGE value="Added ignored files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ignored files" />
+    <MESSAGE value="Card slides finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Card slides finished" />
   </component>
 </project>
